@@ -34,6 +34,12 @@ docker build -t ai-experts-assignment .
 docker run --rm ai-experts-assignment
 ```
 
+### CI
+
+A small GitHub Actions workflow is included to automatically build the Docker image
+and run the test suite. This helps verify that the Dockerfile runs correctly in a
+clean environment similar to CI.
+
 ## What you will do
 
 ### 1) Dockerfile (required)
